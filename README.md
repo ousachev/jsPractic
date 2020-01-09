@@ -5,6 +5,7 @@
 2)cd opening  
 3)npm i  
 4)npm run build  
+5)npm start  
 
 
 Логин:test@gmail.com Пароль:123456
