@@ -1,8 +1,8 @@
-export function isValid(value) {
+export const isValid = (value) => {
   return value.length >= 10;
 }
 
-export function createModal(title, content) {
+export const createModal = (title, content) => {
   const modal = document.createElement("div");
   modal.classList.add("modal");
 

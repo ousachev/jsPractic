@@ -75,3 +75,7 @@ button {
 .error {
   color: red;
 }
+
+#error{
+  display: none;
+}

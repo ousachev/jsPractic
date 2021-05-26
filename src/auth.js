@@ -1,4 +1,4 @@
-export function getAuthForm() {
+export const getAuthForm = () => {
   return `
         <form class="mui-form" id="authForm">
         <div class="mui-textfield mui-textfield--float-label">
@@ -18,7 +18,7 @@ export function getAuthForm() {
     `;
 }
 
-export function authWithEmailAndPassword(email, password) {
+export const authWithEmailAndPassword = (email, password) => {
   const apiKey = "AIzaSyAPsX7SyNWi82gzXMYEMFsjEjmwtzins7o";
   return fetch(
     `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${apiKey}`,

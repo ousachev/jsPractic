@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -38,6 +38,7 @@
 
           <form class="mui-form" id="form">
             <div class="mui-textfield mui-textfield--float-label">
+
               <input
                 id="question-input"
                 type="text"
@@ -46,6 +47,7 @@
                 maxlength="256"
               />
               <label for="question-input">Введите ваш вопрос</label>
+              <span class="error" id="error">Минимальная длина сообщения 10 символов!</span>
             </div>
             <button
               type="submit"
